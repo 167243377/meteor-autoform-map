@@ -2,7 +2,7 @@ Package.describe({
   name: 'yogiben:autoform-map',
   summary: 'Edit location coordinates with autoForm',
   version: '1.0.0',
-  git: 'https://github.com/Roshdy/meteor-autoform-map'
+  git: 'https://github.com/167243377/meteor-autoform-map'
 });
 
 Package.onUse(function(api) {
@@ -22,6 +22,6 @@ Package.onUse(function(api) {
   api.addFiles([
   	'lib/client/autoform-map.html',
     'lib/client/autoform-map.css',
-  	'lib/client/autoform-map.coffee'
+  	'lib/client/autoform-map.js'
   ], 'client');
 });
