@@ -1,3 +1,5 @@
+### Just forked the package and converted the coffee script to javascript ###
+
 Autoform map
 ============
 

@@ -2,9 +2,10 @@
 	<div data-schema-key="{{schemaKey}}" reverse="{{atts.reverse}}" direction="{{atts.direction}}">
 		<input type="text" class="js-lat" style="display: none">
 		<input type="text" class="js-lng" style="display: none">
-		<input type="text" class="controls js-search" placeholder="{{_ 'MapSearch'}} ">
+		<input type="text" class="controls js-search" placeholder="Search">
 		{{#if atts.geolocation}}
 		<a style="margin-bottom:5px;" class="controls btn btn-default js-locate">
+			<p>自動獲取我的位置</p>
 			<i class="fa {{#if loading}}fa-spin fa-circle-o-notch{{else}}fa-crosshairs{{/if}}"></i>
 		</a>
 		{{/if}}
